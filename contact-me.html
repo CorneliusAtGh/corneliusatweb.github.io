@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" href="assets/images/logo.webp" type="image/x-icon">
+    <title>Contact Me • domain.com</title>
+</head>
+<body>
+    <div class="navigation native">
+        <div class="container">
+            <div class="col25">
+                <button><a href="https://domain.com/">domain.com</a></button>
+            </div>
+            <div class="col75 right">
+                <button><a href="projects">Projects</a></button>
+                <button><a href="about-me">About Me</a></button>
+                <button><a href="blog">Blog</a></button>
+                <button><a href="downloads">Downloads</a></button>
+                <button><a href="shop">Shop</a></button>
+                <button class="active-button"><a href="contact-me">Contact Me</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="navigation resp">
+        <div class="container">
+            <div class="col50">
+                <button><a href="https://domain.com/">domain.com</a></button>
+            </div>
+            <div class="col50 right">
+                <button id="menu-button"><img src="assets/images/menu.svg" class="icon"></button>
+            </div>
+        </div>
+    </div>
+    <div class="menu" id="menu">
+        <button><a href="projects">Projects</a></button>
+        <button><a href="about-me">About Me</a></button>
+        <button><a href="blog">Blog</a></button>
+        <button><a href="downloads">Downloads</a></button>
+        <button><a href="shop">Shop</a></button>
+        <button class="active-button"><a href="contact-me">Contact Me</a></button>
+    </div>
+    <div class="body">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <br>
+            <form action="https://formsubmit.co/robert.rndm.fg@gmail.com" method="POST" id="form">
+                <h5><b>Pro Tip:</b> Before you go forth and submit a ticket, check out the <a href="#faq">FAQ</a> below to see if your inquiry has already been addressed!</h5>
+                <h5 class="warning"><b>Note:</b> Everything marked with an asterisk (*) is required.</h5>
+                <h5 class="warning"><b>Note:</b> Spam or troll emails will automatically be filtered out and ignored.</h5>
+                <br>
+                <h5>* E-Mail</h5>
+                <input type="email" placeholder="john.doe@email.com" name="email" id="email" required>
+                <br>
+                <h5>* What Would You Like To Be Called?</h5>
+                <input type="text" placeholder="John_Doe_5943" name="name" id="name" required>
+                <br>
+                <h5>Pronouns</h5>
+                <div class="dropdown">
+                    <input type="text" placeholder="Click To Select Or Type Something Custom..." name="pronouns" id="dropdown">
+                    <div class="dropdown-list" id="dropdown-list">
+                        <div class="dropdown-item">He/Him/His</div>
+                        <div class="dropdown-item">She/Her/Hers</div>
+                        <div class="dropdown-item">They/Them/Theirs</div>
+                        <div class="dropdown-item">Other (Specify)</div>
+                    </div>
+                </div>
+                <br>
+                <h5>* Message</h5>
+                <textarea placeholder="Hi, I'm inquiring about..." name="message" id="message" required></textarea>
+                <br>
+                <p><input type="checkbox" required> * I agree and comply with and will be bound by all of this <a href="legal-stuff">Legal Stuff</a> here.</p>
+                <br>
+                <div class="right">
+                    <button type="submit">Create Ticket</button>
+                </div>
+
+                <input type="hidden" name="_next" value="https://domain.com/thanks">
+                <input type="hidden" name="_subject" value="New Message From domain.com!">
+            </form>
+            <br>
+            <div class="card">
+                <h3 id="faq">FAQ</h3>
+                <br>
+                <p><b>Q: How are purchases made, and are they safe?</b></p>
+                <p>A: All transactions are made through and managed by <a href="https://payhip.com/" target="_blank">Payhip</a>. When you click the "Buy Now!" button, you will be redirected to a dedicated Payhip Checkout page. There, you will be able to complete your payment through <a href="https://www.paypal.com/" target="_blank">PayPal</a>, after which you will receive the download for your purchased content. By proceeding with the purchase, you agree to and become bound by <a href="https://payhip.com/terms/end-user" target="_blank">Payhip's End User License</a>. You can download the file a maximum of three (3) times. If you can't download the file for whatever reason, try again later. If you exceed the maximum download limit, contact me to reset it. <a href="https://payhip.com/terms" target="_blank">Learn more</a>.</p>
+                <br>
+                <p><b>Q: How can I get a refund?</b></p>
+                <p>A: You can only get a refund within 5 business days from making the purchase under the condition that you DO NOT download the content beforehand. If those two conditions are met, contact me through the <a href="#form">above form</a> and request your refund.</p>
+                <br>
+                <p><b>Q: What if I can't download my purchased item(s)?</b></p>
+                <p>A: Contact me through the <a href="#form">above form</a>, and we'll see if we can resolve the issue. If not, a refund is in order.</p>
+                <br>
+                <p><b>Q: Do I receive updates to my purchased content?</b></p>
+                <p>A: It all depends on whether your purchased content will be receiving updates in the first place. If it will, then yes. And if you wish to update your product, you can do so through the same link you received in your email upon completing the purchase. If you have used up your download limit, contact me through the <a href="#form">above form</a> to reset it. If you lost the download link, also contact me through the same <a href="#form">above-mentioned form</a>, and I will issue you your link anew.</p>
+                <br>
+                <p><b>Q: What happens to my information after I create a ticket?</b></p>
+                <p>A: After you create your ticket, I will retain your information for as long as the ticket is open, which is generally until your inquiry has been addressed. An exception to this is if your information is required by law or for legal reasons. Additionally, I will never, under any circumstances, share your information with any 3rd parties, unless required by law or for legal reasons. Keep in mind, however, that this only applies to what I will do with your information, not what 3rd parties linked and/or embedded on, or otherwise connected to, my website will do with your information. Consult their own legal documents to find out their terms and policies regarding the use, storage, and/or distribution of your data.</p>
+                <br>
+                <p><b>Q: What does "Eligible for Charity" mean?</b></p>
+                <p>A: The "Eligible for Charity" tag is applied to items in my Shop whose 50% of profit will be donated to charity. This tag is applied by default to all my items; however, if you are using my Shop to publish your work, you can choose if this tag will be applied to your items or not, per your preference.</p>
+                <br>
+                <p><b>Q: For what can I use the stuff on the Downloads page?</b></p>
+                <p>A: Each item on the <a href="downloads">Downloads</a> page has a specific license ("Free," "Attribution," or "Restricted") applied to it that determines your rights regarding that content's use. Information about each can be found at the top of the <a href="downloads">Downloads</a> page.</p>
+                <br>
+                <p><b>Q: I want to contact you directly by email!</b></p>
+                <p>A: Sure, <span class="warning">robert.rndm.fg@gmail.com</span>! Keep in mind that troll, fraud, or spam emails will be ignored, reported, and blocked.</p>
+                <br>
+                <p><b>Q: Do you want to be my publisher?</b></p>
+                <p>A: Yes, but it may depend. Fill out the <a href="#form">above form</a> with as much information about your work as possible, and I'll get back to you on whether I want to be your publisher or not. Keep in mind, however, that upon publishing your work, I hold all revenue until the end of the month. Then, I will deduct a 10% cut, after which I will send the profits through your preferred payment method. For example, you price your product at €5 each (for simplicity's sake, I will not include VAT in this example), and this month you make 5 sales, meaning your revenue is 5x€5=€25. I will then deduct 10% off of that, resulting in €22.5 for you. Keep in mind that I only sell digital products. And if I expect any payment delays, I will inform you beforehand. Additionally, keep in mind that I am in no way responsible for issues or delays with anything that is out of my control, such as power outages, natural disasters, issues with 3rd-party servers, government restrictions, &c.</p>
+                <br>
+                <p>Alternatively, if you already have your own functioning checkout system and just want to use my Shop as a "homepage" for your work, make sure to let me know, and the above-noted 10% will not apply to you. Keep in mind, however, that if you choose this route, you (or whatever checkout platform you use) will be responsible for everything sales-related, from VAT to refunds, and I will only serve as a middleman between your customers and your checkout.</p>
+                <br>
+                <p>Finally, regardless of how you choose to handle the checkout, if you decide to list your work on my Shop, you retain all rights to your work, you have full control over the content, and you can remove it whenever you want. The only exception to this is if your work is breaking the law or infringing on copyright, trademark, or similar laws, in which case I will automatically remove that content as quickly as possible after finding out about the offense. And if you are the one whose work has been infringed upon by any listing(s) found on my Shop, reach out to me through the <a href="#form">above contact form</a>, explaining the case, and we'll resolve it as quickly as possible. You will, however, have to prove ownership, obviously.</p>
+                <br>
+                <p><b>Q: Why would I even want you to be my publisher?</b></p>
+                <p>A: Let's say you're a small creator with only one product to your name. It doesn't make a lot of sense to put in so much effort into creating a separate store or website, connecting payment methods, ensuring compliance with various laws and legal documents, and then making sure that everything works as expected. Right? Well, that is where I come in. I can sell your product(s) in my own Shop, which has everything already set up for you, and all I will take in return is a 10% cut.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="col50">
+                <p>&copy; <span id="copyright-year"></span> <a href="https://domain.com/" target="_blank">domain.com</a></p>
+            </div>
+            <div class="col50 right">
+                <p><a href="legal-stuff">Legal Stuff</a> • <a href="kudos">Kudos</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
+
+<script>
+    // Dropdown input thing...
+
+    const input = document.getElementById('dropdown');
+    const list = document.getElementById('dropdown-list');
+            
+    input.onclick = () => list.classList.toggle('show');
+
+    list.onclick = (e) => {
+        if (e.target.classList.contains('dropdown-item')) {
+            input.value = e.target.textContent;
+            list.classList.remove('show');
+        }
+    };
+
+    document.onclick = (e) => {
+        if (!e.target.closest('.dropdown')) {
+            list.classList.remove('show');
+        }
+    };
+</script>
