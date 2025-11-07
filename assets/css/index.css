@@ -445,11 +445,11 @@ form input, form textarea {
     background: #00b33c35;
 }
 
-.check {
+.green-icon {
     filter: invert(33%) sepia(97%) saturate(1797%) hue-rotate(124deg) brightness(104%) contrast(104%);
 }
 
-.error {
+.red-icon {
     filter: invert(18%) sepia(91%) saturate(4050%) hue-rotate(355deg) brightness(82%) contrast(127%);
 }
 
