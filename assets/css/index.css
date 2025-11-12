@@ -187,7 +187,11 @@ textarea {
 }
 
 form input, form textarea {
-    border-radius: 0;
+    border-radius: 1rem;
+}
+
+form input[type="checkbox"] {
+    border-radius: 10rem;
 }
 
 .container {
@@ -353,10 +357,11 @@ form input, form textarea {
 .blog-card {
     background: #e2e2e2;
     border-left: 0.35rem solid #111111;
-    border-right: 0.35rem solid #111111;
     color: #111111;
     padding: 1rem 1rem 1rem 1.75rem;
     margin: 0.5rem 0 0.5rem 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     cursor: pointer;
     transition: 0.15s all;
 }
@@ -369,10 +374,8 @@ form input, form textarea {
     margin-bottom: 0;
 }
 
-.blog-card:hover {
+.blog-card:hover, .shop-card-container:hover {
     transform: scale(1.05);
-    border-left: 0.75rem solid #111111;
-    border-right: 0.75rem solid #111111;
 }
 
 .shop-card-container {
@@ -382,10 +385,6 @@ form input, form textarea {
     overflow: hidden;
     transition: 0.15s all;
     cursor: pointer;
-}
-
-.shop-card-container:hover {
-    transform: scale(1.05);
 }
 
 .shop-card-content {
