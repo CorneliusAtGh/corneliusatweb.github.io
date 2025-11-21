@@ -58,7 +58,7 @@ button:hover {
     color: #111111;
 }
 
-button a, button a:hover, .blog-card a, .blog-card a:hover, .shop-card-container a, .shop-card-container a:hover, .sub-txt a, .sub-txt a:hover {
+button a, button a:hover, .blog-card a, .blog-card a:hover, .sub-txt a, .sub-txt a:hover {
     color: inherit;
     text-decoration: none;
 }
@@ -374,26 +374,8 @@ form input[type="checkbox"] {
     margin-bottom: 0;
 }
 
-.blog-card:hover, .shop-card-container:hover {
+.blog-card:hover {
     transform: scale(1.05);
-}
-
-.shop-card-container {
-    background: #e2e2e2;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
-    overflow: hidden;
-    transition: 0.15s all;
-    cursor: pointer;
-}
-
-.shop-card-content {
-    padding: 1rem 1rem 0 1rem;
-}
-
-.shop-card-image {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
 }
 
 .warning {
@@ -501,14 +483,14 @@ form input[type="checkbox"] {
     .col25:last-of-type, .col50:last-of-type, .col75:last-of-type {
         padding-bottom: 0;
     }
-    .navigation .col50, .shop-card-container .col50 {
+    .navigation .col50 {
         width: 50%;
         padding: 0 0.5rem 0 0.5rem;
     }
-    .navigation .col50:first-of-type, .shop-card-container .col50:first-of-type {
+    .navigation .col50:first-of-type {
         padding-left: 0;
     }
-    .navigation .col50:last-of-type, .shop-card-container .col50:last-of-type {
+    .navigation .col50:last-of-type {
         padding-right: 0;
     }
     .social button {
