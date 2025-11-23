@@ -3,12 +3,12 @@
     src: url("../../assets/fonts/lexend/Lexend-Regular.ttf");
 }
 
-::selection {
+::selection, .navigation button:hover, .navigation button.active-button, .menu button:hover, .menu button.active-button {
     background: #00b33c35;
     color: #e60000;
 }
 
-::placeholder {
+::placeholder, li::marker {
     color: #00b33c;
 }
 
@@ -71,11 +71,7 @@ u {
     text-underline-offset: 0.15rem;
 }
 
-b {
-    font-weight: bold;
-}
-
-b u {
+b, b u {
     font-weight: bold;
 }
 
@@ -91,7 +87,7 @@ h3 {
     font-size: 1.75rem;
 }
 
-p {
+p, li {
     font-size: 1.2rem;
 }
 
@@ -103,24 +99,11 @@ ul, ol {
     padding-left: 2.5rem;
 }
 
-li {
-    font-size: 1.2rem;
-}
-
-li::marker {
-    color: #00b33c;
-}
-
 img {
     width: 100%;
     height: auto;
     vertical-align: middle;
     user-select: none;
-}
-
-hr {
-    border: none;
-    border-top: 0.1rem solid #bbbbbb;
 }
 
 form {
@@ -252,29 +235,15 @@ form input[type="checkbox"] {
     text-align: right;
 }
 
-.navigation {
+.navigation, .body {
     padding: 2rem 0 2rem 0;
     color: #111111;
 }
 
-.navigation button {
+.navigation button, .navigation .container .col25 button, .navigation .container .col25 button:hover {
     background: transparent;
     color: #111111;
     border: 0;
-}
-
-.navigation button:hover, .navigation button.active-button, .menu button:hover, .menu button.active-button {
-    background: #00b33c35;
-    color: #e60000;
-}
-
-.navigation .container .col25 button, .navigation .container .col25 button:hover {
-    background: transparent;
-    color: #111111;
-}
-
-.body {
-    padding: 2rem 0 2rem 0;
 }
 
 .footer {
@@ -382,23 +351,6 @@ form input[type="checkbox"] {
     color: #e60000;
 }
 
-.horizontal-slider {
-    overflow-x: auto;
-    white-space: nowrap;
-}
-
-.horizontal-slider button {
-    background: #f1f1f1;
-    border: 0.1rem solid #111111;
-    color: #111111;
-    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
-}
-
-.horizontal-slider button:hover, .horizontal-slider button.active-button {
-    background: #111111;
-    color: #f1f1f1;
-}
-
 .dropdown {
     position: relative;
 }
@@ -479,7 +431,6 @@ form input[type="checkbox"] {
     .col25:first-of-type, .col50:first-of-type, .col75:first-of-type {
         padding-top: 0;
     }
-
     .col25:last-of-type, .col50:last-of-type, .col75:last-of-type {
         padding-bottom: 0;
     }
