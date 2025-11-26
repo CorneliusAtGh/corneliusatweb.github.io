@@ -93,23 +93,23 @@
 </html>
 
 <script>
-    // Dropdown input thing...
+    // Dropdown input thingy...
 
-    const input = document.getElementById('dropdown');
-    const list = document.getElementById('dropdown-list');
+    const input = document.getElementById('dropdown'); // Grabs the element with the set ID and assigns a const to it for ease of reference later.
+    const list = document.getElementById('dropdown-list'); // Grabs the element with the set ID and assigns a const to it for ease of reference later.
             
-    input.onclick = () => list.classList.toggle('show');
+    input.onclick = () => list.classList.toggle('show'); // Waits for the user to click the input, then basically activates the .dropdown-list.show from my CSS.
 
-    list.onclick = (e) => {
-        if (e.target.classList.contains('dropdown-item')) {
-            input.value = e.target.textContent;
-            list.classList.remove('show');
+    list.onclick = (e) => { // This waits for an element from the dropdown itself to be clicked.
+        if (e.target.classList.contains('dropdown-item')) { // Makes sure to only register the click if the clicked item has the set class applied to it.
+            input.value = e.target.textContent; // Make sure to replace the contents of the input with the contents of the dropdown-item.
+            list.classList.remove('show'); // Makes sure that the dropdown hides itself once an option has been selected.
         }
     };
 
-    document.onclick = (e) => {
-        if (!e.target.closest('.dropdown')) {
-            list.classList.remove('show');
+    document.onclick = (e) => { // Waits for the user to click elsewhere.
+        if (!e.target.closest('.dropdown')) { // Checks if the dropdown is opened.
+            list.classList.remove('show'); // If so, it closes it by removing the show class.
         }
     };
 </script>
