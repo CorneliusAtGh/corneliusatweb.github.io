@@ -1,23 +1,29 @@
-Oswald Variable Font
-====================
+Commissioner Variable Font
+==========================
 
-This download contains Oswald as both a variable font and static fonts.
+This download contains Commissioner as both a variable font and static fonts.
 
-Oswald is a variable font with this axis:
+Commissioner is a variable font with these axes:
+  FLAR
+  VOLM
+  slnt
   wght
 
 This means all the styles are contained in a single file:
-  Oswald-VariableFont_wght.ttf
+  Commissioner-VariableFont_FLAR,VOLM,slnt,wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Oswald:
-  static/Oswald-ExtraLight.ttf
-  static/Oswald-Light.ttf
-  static/Oswald-Regular.ttf
-  static/Oswald-Medium.ttf
-  static/Oswald-SemiBold.ttf
-  static/Oswald-Bold.ttf
+in those cases you can use the static font files for Commissioner:
+  static/Commissioner-Thin.ttf
+  static/Commissioner-ExtraLight.ttf
+  static/Commissioner-Light.ttf
+  static/Commissioner-Regular.ttf
+  static/Commissioner-Medium.ttf
+  static/Commissioner-SemiBold.ttf
+  static/Commissioner-Bold.ttf
+  static/Commissioner-ExtraBold.ttf
+  static/Commissioner-Black.ttf
 
 Get started
 -----------

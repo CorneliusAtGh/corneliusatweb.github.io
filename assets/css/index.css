@@ -1,6 +1,6 @@
 @font-face {
     font-family: "main";
-    src: url("../../assets/fonts/oswald/Oswald-Regular.ttf");
+    src: url("../../assets/fonts/commissioner/Commissioner-Regular.ttf");
 }
 
 ::selection, .navigation button:hover, .navigation button.active-button, .menu button:hover, .menu button.active-button {
