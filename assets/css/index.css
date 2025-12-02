@@ -1,6 +1,6 @@
 @font-face {
     font-family: "main";
-    src: url("../../assets/fonts/commissioner/Commissioner-Regular.ttf");
+    src: url("../../assets/fonts/dm/DMSerifText-Regular.ttf");
 }
 
 ::selection, .navigation button:hover, .navigation button.active-button, .menu button:hover, .menu button.active-button {
@@ -20,6 +20,7 @@
     font-weight: normal;
     scroll-behavior: smooth;
     animation: fadeIn 0.35s;
+    letter-spacing: 0.05rem;
 }
 
 body {
@@ -67,14 +68,6 @@ button#menu-button:hover .icon {
     filter: invert(11%) sepia(90%) saturate(5943%) hue-rotate(5deg) brightness(96%) contrast(118%);
 }
 
-u {
-    text-underline-offset: 0.15rem;
-}
-
-b, b u {
-    font-weight: bold;
-}
-
 h1 {
     font-size: 3.5rem;
 }
@@ -118,7 +111,7 @@ input, textarea {
     color: #111111;
     padding: 1rem;
     margin: 0.5rem 0 0.5rem 0;
-    border-radius: 10rem;
+    border-radius: 1rem;
     width: 100%;
     outline: none;
     display: block;
@@ -167,14 +160,6 @@ input:focus, form textarea:focus {
 textarea {
     height: 10rem;
     resize: none;
-}
-
-form input, form textarea {
-    border-radius: 1rem;
-}
-
-form input[type="checkbox"] {
-    border-radius: 10rem;
 }
 
 .container {
@@ -288,28 +273,8 @@ form input[type="checkbox"] {
 }
 
 .social button#youtube:hover {
-    background: #f1f1f1;
+    background: transparent;
     color: #FF0000;
-}
-
-.social button#tiktok {
-    background: #fe2858;
-    border: 0.2rem solid #fe2858;
-}
-
-.social button#tiktok:hover {
-    background: #f1f1f1;
-    color: #fe2858;
-}
-
-.social button#bluesky {
-    background: #0886FE;
-    border: 0.2rem solid #0886FE;
-}
-
-.social button#bluesky:hover {
-    background: #f1f1f1;
-    color: #0886FE;
 }
 
 .icon {
