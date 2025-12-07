@@ -1,6 +1,6 @@
 @font-face {
     font-family: "main";
-    src: url("../../assets/fonts/dm/DMSerifText-Regular.ttf");
+    src: url("../../assets/fonts/fira/FiraSans-Regular.ttf");
 }
 
 ::selection, .navigation button:hover, .navigation button.active-button, .menu button:hover, .menu button.active-button {
@@ -29,6 +29,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+b {
+    font-weight: bold;
 }
 
 a {
