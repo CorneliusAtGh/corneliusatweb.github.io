@@ -41,38 +41,43 @@
         <div class="container">
             <h1>Contact Me</h1>
             <br><br>
-            <form action="https://formsubmit.co/robert.mail.736@gmail.com" method="POST" id="form">
-                <h5 class="warning"><b>Note:</b> Everything marked with an asterisk (*) is required.</h5>
-                <h5 class="warning"><b>Note:</b> Spam or troll emails will automatically be filtered out and ignored.</h5>
+            <form action="https://formsubmit.co/robert.mail.736@gmail.com" method="POST" autocomplete="off">
+                <h5 class="warning"><b>Note:</b> Spam or troll emails will be reported, blocked, and ignored.</h5>
                 <br>
-                <h5>* E-Mail</h5>
+                <p>E-Mail:</p>
+                <br>
                 <input type="email" placeholder="john.doe@email.com" name="Email" id="email" required>
                 <br>
-                <h5>* What Would You Like To Be Called?</h5>
-                <input type="text" placeholder="John Doe" name="Name" id="name" required>
+                <p>Name/Username/Nickname:</p>
                 <br>
-                <h5>Pronouns</h5>
+                <input type="text" placeholder="John Doe" name="Name" id="Name" required>
+                <br>
+                <p>Pronouns (Optional):</p>
+                <br>
                 <div class="dropdown">
-                    <input type="text" placeholder="Click To Select Or Type Custom..." name="Pronouns" id="dropdown">
+                    <input type="text" placeholder="Click To Open Dropdown And Select" name="Pronouns" id="dropdown">
                     <div class="dropdown-list" id="dropdown-list">
                         <div class="dropdown-item">He/Him/His</div>
                         <div class="dropdown-item">She/Her/Hers</div>
                         <div class="dropdown-item">They/Them/Theirs</div>
-                        <div class="dropdown-item">Other (Specify)</div>
+                        <br>
+                        <div class="center"><p>Other (Type In Manually)</p></div>
+                        <br>
                     </div>
                 </div>
                 <br>
-                <h5>* Message</h5>
+                <p>Message:</p>
+                <br>
                 <textarea placeholder="Hi, I'm inquiring about..." name="Message" id="message" required></textarea>
                 <br>
-                <p><input type="checkbox" required> * I agree to be bound by all the <a href="legal-stuff">Legal Stuff</a>!</p>
+                <p><input type="checkbox" required> I agree with all this <a href="legal-stuff"><i>Legal Stuff</i></a>!</p>
                 <br>
                 <div class="right">
                     <button type="submit">Create Ticket</button>
                 </div>
 
                 <input type="hidden" name="_next" value="https://corneliusatweb.com/success">
-                <input type="hidden" name="_subject" value="New Message From corneliusatweb.com!">
+                <input type="hidden" name="_subject" value="New Ticket @ corneliusatweb.com!">
                 <input type="hidden" name="_template" value="table">
             </form>
         </div>
